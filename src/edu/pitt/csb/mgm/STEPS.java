@@ -61,6 +61,11 @@ public class STEPS {
 
     }
 
+    //added by nehaabraham for R package development
+    public int getSubsampleSize(){
+        return b;
+    }
+
     public double [][] runStepsArrayPar()
     {
         double [][] result = new double[lambda.length][4];
