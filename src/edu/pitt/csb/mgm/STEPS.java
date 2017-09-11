@@ -65,6 +65,10 @@ public class STEPS {
     public int getSubsampleSize(){
         return b;
     }
+    public int setSubsampleSize(int size){
+        b = size;
+        return b;
+    }
 
     public double [][] runStepsArrayPar()
     {
